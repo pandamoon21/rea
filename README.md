@@ -208,6 +208,8 @@ Native formats and host support vary by provider. See
 [IDA guide](docs/ida-provider.md) (including an optional native MCP bridge), and
 [experimental Windows Ghidra support](docs/windows-ghidra-p0.md).
 Ghidra also supports [16-bit DOS analysis](docs/ghidra-dos.md).
+For a concrete Windows x64 walkthrough (Node/JDK/Ghidra pins, MCP registration,
+verification), see [Windows local setup](docs/windows-local-setup.md).
 For large binaries, raise the provider's startup deadline with
 `REA_GHIDRA_STARTUP_TIMEOUT_MS` or `REA_HOPPER_STARTUP_TIMEOUT_MS`.
 For provider selection, see the [CLI guide](docs/cli.md#choose-a-provider).
